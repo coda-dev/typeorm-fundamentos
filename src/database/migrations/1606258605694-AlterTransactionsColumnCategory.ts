@@ -13,7 +13,7 @@ export default class AlterTransactionsColumnCategory1606258605694 implements Mig
             name: 'TransactionsCategory',
             columnNames: ['category_id'],
             referencedColumnNames: ['id'],
-            referencedTableName: 'categorys',
+            referencedTableName: 'categories',
             onDelete: 'SET NULL',
             onUpdate: 'CASCADE',
         }));
